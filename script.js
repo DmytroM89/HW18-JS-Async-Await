@@ -4,7 +4,7 @@ async function delay(data, ms) {
 }
 
 async function getUserInfo() {
-    return await delay({ name: 'Vic', age: 21, id: 1 },1000);
+    return delay({ name: 'Vic', age: 21, id: 1 },1000);
 }
 
 async function getUserAvatar(userInfo) {
